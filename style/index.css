@@ -2,7 +2,6 @@
 
 html{
     top: 0;
-    
 }
 
 body {
@@ -17,57 +16,55 @@ h1, h2{
     text-align: center;
     margin: 0;
 }
+
 h3{
     margin-bottom: 2px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.aboutme-section {
+    text-align: center;
+    padding: 4em;
+    display: flex;
+}
+
+.aboutMe{
+    font-size: 1.5em;
+    background-color: rgba(31, 29, 30, 0.3);
+    box-shadow: 8px 15px rgba(0, 0, 0, 0.6);
+    width: 60%;
+    margin-left: 10%;
+    border-radius: 5%;
 }
 
 .aboutMe, .hobby p{
     margin-top: 1em;
     margin-bottom: 1em;
-    padding: 15px; 
+    padding: 15px;
     text-align: left;
     margin-left: 1em;
- } 
+ }
 
-.section1{
-    height: 100vh;
-    margin: 0;
-}
 
 .portfolioImage img{
     width: 350px;
     border-radius: 20%;
-    box-shadow: 8px 15px rgba(0, 0, 0, 0.6); 
+    box-shadow: 8px 15px rgba(0, 0, 0, 0.6);
 }
 
-.aboutMe{
-background-color: rgba(31, 29, 30, 0.3);
-box-shadow: 8px 15px rgba(0, 0, 0, 0.6); 
-width: 60%;
-margin-left: 10%;
-border-radius: 5%;
-}
-
-#wrapper {
+.hobbies {
+    text-align: center;
+    margin-top: 40px;
     display: flex;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 150px;
-}
-
-#wrapper-2{
-    display: flex;
-    width: 70%;
-    margin: 0 auto;
 }
 
 .hobby, .games, .music{
     margin: 20px;
-}
-
-.hobby, .games, .music{
     background-color: rgba(31, 29, 30, 0.3);
-    box-shadow: 8px 15px rgba(0, 0, 0, 0.6); 
+    box-shadow: 8px 15px rgba(0, 0, 0, 0.6);
     width: 40%;
     border-radius: 10%;
 }
@@ -76,9 +73,20 @@ table {
     margin: 0 auto;
 }
 
+.projecten {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.project {
+    width: 90vw;
+    text-align: center;
+}
+
 .music p{
-margin: 2px;
-text-align: center;
+    margin: 2px;
+    text-align: center;
 }
 
 footer {
@@ -95,21 +103,20 @@ footer {
 
  .img-banner img{
     display: flex;
-    margin: 0 auto;
     border-radius: 5%;
     width: 50%;
-    margin-top: 20px;
-    box-shadow: 8px 15px rgba(0, 0, 0, 0.6); 
+    margin: 20px auto 0;
+    box-shadow: 8px 15px rgba(0, 0, 0, 0.6);
  }
 
  .flip-card {
     background-color: transparent;
-    width: 600px;
+    width: 540px;
     height: 300px;
     perspective: 1000px;
     margin: 20px;
   }
-  
+
   .flip-card-inner p {
     font-size: 20px;
   }
@@ -133,11 +140,11 @@ footer {
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
-  
+
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-  
+
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -145,12 +152,12 @@ footer {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-  
+
   .flip-card-front {
     background-color: #bbb;
     color: black;
   }
-  
+
   .flip-card-back {
     background-color: #2980b9;
     color: white;
